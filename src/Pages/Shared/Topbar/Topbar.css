@@ -1,0 +1,14 @@
+.top-bar-border{
+  border-right: 1px solid #4fd6a0;
+  color: white;
+}
+.top-bar-font{
+  color: white !important;
+  font-weight: 600;
+}
+.top-icon{
+  font-weight: 600;
+  width: 18px;
+  height: 18px;
+  color: #ffff;
+}
