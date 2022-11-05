@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar className='py-0 ' expand="lg" bg="dark" variant="dark">
+      <Navbar className='py-0 navbar' expand="lg" bg="#FFFFFF" variant="dark">
         <Container>
           <Navbar.Brand href="#home"><img
             alt="Logo"
@@ -21,17 +21,17 @@ const Header = () => {
             width="100"
             height="30"
             className="d-inline-block align-top"
-          /> 
-          {/* <span>BD</span><span className="text-warning">GO</span> */}
+          />
+            {/* <span>BD</span><span className="text-warning">GO</span> */}
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
 
             <Nav className="me-auto" id="d-flex align-items-center nav-3">
-              <Nav.Link className='link-3 text-white' as={HashLink} to="/home#home">Home</Nav.Link>
-              <Nav.Link className='link-3 text-white' as={HashLink} to="/home#services">Services</Nav.Link>
-              <Nav.Link className='link-3 text-white' as={HashLink} to="/aboutus">About us</Nav.Link>
+              <Nav.Link className='link-3 text-dark' as={HashLink} to="/home#home">Home</Nav.Link>
+              <Nav.Link className='link-3 text-dark' as={HashLink} to="/home#services">Services</Nav.Link>
+              <Nav.Link className='link-3 text-dark' as={HashLink} to="/aboutus">About us</Nav.Link>
             </Nav>
 
             <Nav id="nav-3">
